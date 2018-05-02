@@ -6,7 +6,7 @@
 class EmailParser
   attr_accessor :emails
 
-  def parse(string)
-    string.split(/\, \ /)
+  def parse
+    self.emails.split(/\, \ /)
   end
 end
