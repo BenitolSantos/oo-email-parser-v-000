@@ -12,8 +12,8 @@ class EmailParser
 
   def parse #parse doesn't expect any arguments.
     array = self.emails.split(/(\s|,\s)/)
-    array.remove{|i| i == " " || i == ", "}
     binding.pry
+    array.remove{|i| i == " " || i == ", "}
     array
   end
 end
