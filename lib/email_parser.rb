@@ -8,6 +8,7 @@ class EmailParser
   attr_accessor :emails
 
   def parse #parse doesn't expect any arguments.
+    binding.pry
     self.emails.split(/\, \ /)
   end
 end
