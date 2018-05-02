@@ -16,6 +16,6 @@ class EmailParser
     array.delete(", ")
     #no bang! needed because you don't need to change it.
     #You just need to show it.
-    array.uniq
+    array.uniq 
   end
 end
