@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse #parse doesn't expect any arguments.
-    self.emails.split(/(,\s)/)
+    self.emails.split(/(\s|,\s)/)
     binding.pry
   end
 end
