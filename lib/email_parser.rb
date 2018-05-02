@@ -10,6 +10,7 @@ class EmailParser
   def initialize(emails)
     @emails = emails
   end
+  
   def parse #parse doesn't expect any arguments.
     self.emails.split(/,\s/) #regex of , and any s whitespace character
   end
