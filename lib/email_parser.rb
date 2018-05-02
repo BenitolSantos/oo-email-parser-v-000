@@ -7,6 +7,9 @@ require "pry"
 class EmailParser
   attr_accessor :emails #the only attribute is a list of emails as a string.
 
+  def initialize(emails)
+    @emails = emails
+  end
   def parse #parse doesn't expect any arguments.
     self.emails.split(/,\s/) #regex of , and any s whitespace character
   end
