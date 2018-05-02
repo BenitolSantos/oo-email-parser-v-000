@@ -14,5 +14,6 @@ class EmailParser
     array = self.emails.split(/(\s|,\s)/)
     array.remove{|i| i == " " || i == ", "}
     binding.pry
+    array
   end
 end
