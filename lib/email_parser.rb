@@ -9,6 +9,6 @@ class EmailParser
 
   def parse #parse doesn't expect any arguments.
     binding.pry
-    self.emails.split(/,\s/) #regex of , and any s white character
+    self.emails.split(/,\s/) #regex of , and any s whitespace character
   end
 end
