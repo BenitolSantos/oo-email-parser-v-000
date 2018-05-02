@@ -14,6 +14,6 @@ class EmailParser
     array = self.emails.split(/(\s|,\s)/) #no bang needed
     array.delete(" ")
     array.delete(", ")
-    array.uniq!
+    array.uniq
   end
 end
