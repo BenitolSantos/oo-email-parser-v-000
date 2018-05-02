@@ -12,6 +12,6 @@ class EmailParser
   end
 
   def parse #parse doesn't expect any arguments.
-    self.emails.split(" ")
+    self.emails.split(/(,\s)/)
   end
 end
