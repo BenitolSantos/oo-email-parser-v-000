@@ -6,7 +6,7 @@
 class EmailParser
   attr_accessor :emails
 
-  def parse
+  def parse #parse doesn't expect any arguments.
     self.emails.split(/\, \ /)
   end
 end
