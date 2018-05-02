@@ -12,7 +12,6 @@ class EmailParser
 
   def parse #parse doesn't expect any arguments.
     array = self.emails.split(/(\s|,\s)/) #no bang needed
-    binding.pry
     array.delete(" ")
     array.delete(", ")
     array
