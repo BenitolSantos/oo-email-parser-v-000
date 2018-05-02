@@ -15,5 +15,6 @@ class EmailParser
     binding.pry
     array.delete(" ")
     array.delete(", ")
+    array
   end
 end
